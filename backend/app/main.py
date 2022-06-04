@@ -1,6 +1,9 @@
 from fastapi import Depends, FastAPI
 from app.config import get_settings, Settings
 
+# Viene del curso  testdriven.io abarra@vates.com vates_backend
+
+
 app = FastAPI()
 
 @app.get("/ping")
